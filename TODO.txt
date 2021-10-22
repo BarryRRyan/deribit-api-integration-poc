@@ -1,0 +1,32 @@
+Deployment
+  CICD
+  extracting deribit api endpoints to config (i.e. yaml)
+  Providing deribit prod endpoint config with production profile.
+  Docker hardening
+  Provide scripts for other environments (bat/powershell if needed).
+
+Tech debt
+  Refactor package structure
+  Refactor to services
+  Handling null on response fields
+  Better Error Code handling
+  Graceful server shutdown.
+  Implement account resource
+  change deposits to deposit
+  change withdrawals to withdrawal
+
+User Experience
+  Implement HATEOAS for pagination
+  OpenAPI Spec.
+
+Operations
+  Implement logging
+  Add monitoring (metrics, health checks etc)
+  Add code quality static scans
+  Harden application (validation/sanitization/HTTPs etc)
+
+Quality Assurance
+  Test Withdrawals (blocked until saturday)
+  Create automation tests (unit/integration/acceptance)
+  Implement other endpoints that enable the generation of test data.
+  Check if subaccounts need to be aggregated manually.
