@@ -73,10 +73,15 @@ _WARNING: If you do not use source then $TOKEN won't be available to subshells._
 
 You can now run verification scripts against either deribit or the application.
 > ./script/verify/getAccountFromApp.sh CURRENCY
+> 
 > ./script/verify/getAccountFromDeribit.sh CURRENCY
+> 
 > ./script/verify/getDepositsFromApp.sh CURRENCY PAGESIZE OFFSET
+> 
 > ./script/verify/getDepositsFromDeribit.sh CURRENCY PAGESIZE OFFSET
+> 
 > ./script/verify/getWithdrawalsFromApp.sh CURRENCY PAGESIZE OFFSET
+> 
 > ./script/verify/getWithdrawalsFromDeribit.sh CURRENCY PAGESIZE OFFSET 
 
 ## Overriding Host
